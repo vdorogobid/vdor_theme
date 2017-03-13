@@ -19,7 +19,7 @@
                             <?php the_author(); ?></a></p>
             <?php if ( has_post_thumbnail()) :?>
               <div class="post-thumb">
-                    <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" >
+                    <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" > </a>
                     <?php the_post_thumbnail(); ?>
               </div>
         <?php endif; ?>
