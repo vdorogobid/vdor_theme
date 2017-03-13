@@ -25,10 +25,8 @@
         <?php endif; ?>
             <?php the_content(); ?>
             <hr>
-            <div class="comments">
-              <?php comments_template(); ?>
-            </div>
-          </div><!-- /.blog-post -->
+                <?php comments_template(); ?>
+            </div><!-- /.blog-post -->
 
           <?php endwhile ?>
         <?php else : ?>
