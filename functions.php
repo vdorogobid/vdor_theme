@@ -69,6 +69,8 @@ add_theme_support( 'automatic-feed-links' );
 
 add_theme_support('custom-logo');
 
+add_theme_support( 'custom-background' ); // установка фона с админки
+
 //Длина анотации постов в цикле
 function set_excerpt_length(){
   return 35;
