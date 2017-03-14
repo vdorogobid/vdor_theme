@@ -1,0 +1,88 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP NovaPoshta Plugin\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2017-03-14 10:23+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: SoftGroup students <vdorogobid@gmail.com>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: comments.php:32
+msgctxt "noun"
+msgid "Comment"
+msgstr "Комментарий"
+
+#: functions.php:42
+msgid "Primary Menu"
+msgstr "Главное меню"
+
+#: inc/customizer.php:5
+msgid "Showcase"
+msgstr "Слайдер"
+
+#: inc/customizer.php:6
+msgid "Options for showcase"
+msgstr "Опции слайдера"
+
+#: inc/customizer.php:16
+msgid "Showcase Image"
+msgstr "Картинка для слайдера"
+
+#: inc/customizer.php:24
+msgctxt "wpbootstrap"
+msgid "Custom Bootstrap Wordpress Theme"
+msgstr "Стилизированная Bootstrap тема"
+
+#: inc/customizer.php:29
+msgid "Heading"
+msgstr "Заголовок"
+
+#: inc/customizer.php:35
+msgctxt "wpbootstrap"
+msgid ""
+"Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus "
+"mus. Aenean eu leo quam"
+msgstr "Риба"
+
+#: inc/customizer.php:40
+msgid "Text"
+msgstr "Текст"
+
+#: inc/customizer.php:46
+msgctxt "wpbootstrap"
+msgid "http://test.com"
+msgstr ""
+
+#: inc/customizer.php:51
+msgid "Button URL"
+msgstr "URL кнопки"
+
+#: inc/customizer.php:57
+msgctxt "wpbootstrap"
+msgid "Read More"
+msgstr "Больше"
+
+#: inc/customizer.php:62
+msgid "Button Text"
+msgstr "Текст на кнопке"
+
+#: index.php:19 page.php:24 single.php:33
+msgid "No posts"
+msgstr "Нету постов"
