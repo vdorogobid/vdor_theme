@@ -21,7 +21,7 @@
 
 
     $wp_customize->add_setting('showcase_heading', array(
-      'default'   => _x('Custom Bootstrap Wordpress Theme', 'wpbootstrap'),
+      'default'   => _x('The BEST WordPress theme vdorogobid', 'wpbootstrap'),
       'type'      => 'theme_mod'
     ));
 
