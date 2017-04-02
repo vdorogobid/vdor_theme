@@ -117,3 +117,13 @@ add_action('widgets_init', 'wpb_init_widgets');
 
 // Customizer File
 require get_template_directory(). '/inc/customizer.php';
+
+
+
+/**
+
+* Load TGM Plugin Activation.
+
+*/
+
+require get_template_directory() . '/tgm-plugin-activation/vdor-theme-tgm-plugin-activation.php';
