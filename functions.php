@@ -134,7 +134,7 @@ function _action_theme_wp_print_styles() {
 
     echo '<style type="text/css">'
         . 'body { '
-        . 'border: 30px solid '. esc_html($option_value) .'; '
+        . 'border: 5px dashed '. esc_html($option_value) .'; '
         . '}'
         . '</style>';
 }
