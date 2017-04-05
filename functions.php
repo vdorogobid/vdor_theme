@@ -155,3 +155,6 @@ require get_template_directory(). '/inc/customizer.php';
 */
 
 require get_template_directory() . '/tgm-plugin-activation/vdor-theme-tgm-plugin-activation.php';
+
+//Load hooks
+require get_template_directory() . '/inc/hooks.php';
