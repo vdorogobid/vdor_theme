@@ -115,6 +115,34 @@ function wpb_init_widgets($id){
 add_action('widgets_init', 'wpb_init_widgets');
 
 
+
+function _action_theme_wp_print_styles() {
+    if (!defined('FW')) return; // prevent fatal error when the framework is not active
+
+    $option_value = fw_get_db_customizer_option('body-color');
+    //$option_value = fw_get_db_settings_option('body-color');
+    /*
+     * global $post;
+
+    if (!$post || $post->post_type != 'post') {
+        return;
+    }
+
+    $option_value = fw_get_db_post_option($post->ID, 'body-color');
+
+     */
+
+    echo '<style type="text/css">'
+        . 'body { '
+        . 'border: 30px solid '. esc_html($option_value) .'; '
+        . '}'
+        . '</style>';
+}
+
+add_action('wp_print_styles', '_action_theme_wp_print_styles');
+
+
+
 // Customizer File
 require get_template_directory(). '/inc/customizer.php';
 
