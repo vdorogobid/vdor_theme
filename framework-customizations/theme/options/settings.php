@@ -21,7 +21,7 @@ $options = array(
             'data-foo' => 'bar'
         ),
         'help'  => __('Some html that will appear in tip popup', MY_THEME_TEXTDOMAIN),
-    )
+    ),
     'option_regular_text' => array(
         'type'  => 'text',
         'value' => 'Default value',
@@ -32,7 +32,7 @@ $options = array(
             'data-foo' => 'bar'
         ),
         'help'  => __('Some html that will appear in tip popup', MY_THEME_TEXTDOMAIN),
-    )
+    ),
 
 
     'option_regular_textarea' => array(
