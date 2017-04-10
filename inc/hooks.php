@@ -32,5 +32,39 @@ if ( defined('FW') ){
             true
         );
     }
+    
+    
+    add_action('fw_init', '_action_theme_test_fw_settings_form');
+    function _action_theme_test_fw_settings_form() {
+        if (class_exists('FW_Settings_Form')) {
+            require_once dirname(__FILE__) . '/class-fw-settings-form-test.php';
+            new FW_Settings_Form_Test('test');
+        }
+    }
+
+    add_action('admin_notices', '_action_admin_notices_fw_flash_message' );
+    function _action_admin_notices_fw_flash_message()
+    {
+        FW_Flash_Messages::add(
+            'test_success',
+            __('Test message', '{domain}'),
+            'success' // available types: info, warning, error, success
+        );
+        FW_Flash_Messages::add(
+            'test_error',
+            __('Test message', '{domain}'),
+            'error' // available types: info, warning, error, success
+        );
+        FW_Flash_Messages::add(
+            'test_warning',
+            __('Test message', '{domain}'),
+            'warning' // available types: info, warning, error, success
+        );
+        FW_Flash_Messages::add(
+            'test_info',
+            __('Test message', '{domain}'),
+            'info' // available types: info, warning, error, success
+        );
+    }
    
 }
